@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+body {
+  margin: 8px;
+}
+
+.cloud-emoji {
+  text-align: center;
+  font-size: 34px;
+  padding-bottom: 10px;
+}
+
+.tokyo {
+  color: #1964d6;
+  text-align: center;
+  font-size: 34px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.degree {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 34px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.rain {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 1.17em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.rainy {
+  padding-top: 10px;
+  font-family: monospace;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.Raining {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.Raining:hover {
+  background-color: #fffbef;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.cloudy {
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.17em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.clouds {
+  padding-top: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+.cloud1 {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cloud1:hover {
+  background-color: #fffbef;
+}
+
+.number2 {
+  font-weight: bold;
+}
+
+.sunny {
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.17em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.sun {
+  padding-top: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 40px;
+  opacity: 0.7;
+}
+
+.sun1 {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.sun1:hover {
+  background-color: #fffbef;
+}
+
+.number3 {
+  font-weight: bold;
+}
+
+.btn {
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: block;
+  align-items: center;
+  color: white;
+  background: #1a64d6;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border: 1px solid #1a64d6;
+}
+
+.btn:hover {
+  background-color: white;
+  color: royalblue;
+  border-color: royalblue;
+}
+
+.Code {
+  opacity: 0.7;
+  padding-top: 30px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+}
+</style>
+  </head>
+  <body>
+    <!-- Heading -->
+    <div class="cloud-emoji">🌤</div>
+    <div class="tokyo">Currently 21<span>&#176;</span> in Tokyo</div>
+    <div class="degree">13<span>&#176;</span> / <span class="bold">23<span>&#176;</span></div>
+
+    <!-- Rainy Day -->
+    <div class="Raining"> 
+    <div class="rain">🌧Tomorrow</div>
+    <div class="rainy">10<span>&#176;</span> / <span class="number">22</span><span>&#176;</span></div>
+    </div>
+
+    <!-- Cloudy Day -->
+    <div class="cloud1">
+    <div class="cloudy">🌥 Saturday</div>
+    <div class="clouds">15<span>&#176;</span>  / <span class="number2">17</span><span>&#176;</span> </div>
+    </div>
+
+    <!-- Sunny Day -->
+    <div class="sun1">
+    <div class="sunny">☀️Sunday</div>
+    <div class="sun">25<span>&#176;</span> / <span class="number3">28</span><span>&#176;</span></div>
+    </div>
+
+    <!-- Button -->
+    <button class="btn">Change city</button>
+
+    <!-- Coded by -->
+    <div class="Code">Coded by Matt Delac</div>
+
+  </body>
+</html>
